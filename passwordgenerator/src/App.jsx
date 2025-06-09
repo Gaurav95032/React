@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/card"
 import { Input } from './components/ui/input'
 import { Button } from './components/ui/button';
-import { Checkbox } from './components/ui/checkbox';
 
 function App() {
   const [length, setLength] = useState(8);
