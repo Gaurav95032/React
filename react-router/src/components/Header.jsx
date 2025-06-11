@@ -5,13 +5,10 @@ function Header() {
   return (
     <div className='sticky top-0 z-50 bg-white shadow-md'> {/* Added shadow and z-index for layering */}
       <header className='container mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between'>
-        {/* Logo */}
+
         <div className='text-white text-3xl sm:text-4xl font-bold bg-gray-700 py-2 px-6 rounded-lg flex-shrink-0 flex items-center justify-center'> {/* flex-shrink-0 to prevent shrinking on small screens */}
           <Link to="/" className="font-bold">Logo</Link>
         </div>
-
-        {/* Navigation Links */}
-        {/* Changed flex direction for responsiveness and added gap */}
         <nav className='flex-grow flex justify-center'> {/* flex-grow to take available space */}
           <ul className='flex flex-wrap justify-center gap-x-8 gap-y-2 text-lg font-medium text-gray-700'>
             <li>
@@ -61,7 +58,6 @@ function Header() {
           </ul>
         </nav>
 
-        {/* Register Button */}
         <div className='bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-semibold transition-colors duration-200 cursor-pointer flex-shrink-0'> {/* flex-shrink-0 for button */}
           Register
         </div>
